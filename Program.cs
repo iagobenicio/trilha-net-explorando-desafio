@@ -25,7 +25,7 @@ try
 
 // Exibe a quantidade de hóspedes e o valor da diária
     Console.WriteLine($"Hóspedes: {reserva.ObterQuantidadeHospedes()}");
-    Console.WriteLine("Valor diária {0:0.00}: ",reserva.CalcularValorDiaria());
+    Console.WriteLine("Valor diária: {0:0.00} ",reserva.CalcularValorDiaria());
 
 }
 catch (Exception e)
